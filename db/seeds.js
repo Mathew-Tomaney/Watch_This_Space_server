@@ -15,35 +15,41 @@ db.planets.insertMany([
                 planetType: "Yellow Dwarf",
                 temperature: "5538 degrees celsuis",
 
-            },
-            quizFacts: {
-                moons: "No Moons",
-                yearLength: "One year is 230 million Earth years",
-                oneEarthDay: "One day is 59 Earth days",
-                distanceFromSun: "39.704 million miles",
-                gravity: "28 times stronger than Earths gravity",
-                planetType: "Terrestrial",
-                temperature: "5538 celsuis"
-            }
-        
-
+            },       
     },
     {
         name: "Mercury",
         img: "https://solarsystem.nasa.gov/system/stellar_items/image_files/2_feature_1600x900_mercury.jpg",
         description: "The smallest planet in our solar system and nearest to the Sun, Mercury is only slightly larger than Earths Moon. From the surface of Mercury, the Sun would appear more than three times as large as it does when viewed from Earth, and the sunlight would be as much as seven times brighter. Despite its proximity to the Sun, Mercury is not the hottest planet in our solar system",
         radius: 1516,
-            funfacts: {
+            facts: {
                 moons: "0",
                 yearLength: "88 Earth days",
-                oneEarthDay: " Earth days",
+                oneEarthDay: "59 Earth days",
                 distanceFromSun: "39.704 million miles",
                 gravity: "87 times weaker than the force of gravity on the surface of the Earth",
                 planetType: "Terrestrial",
                 temperature: "Temperatures are extreme, both hot and cold 800 degrees Fahrenheit /  430 degrees Celsius, during the day. Because the planet has no atmosphere to retain that heat, nighttime temperatures on the surface can drop to  -290 degrees Fahrenheit /  -180 degrees Celsius.",
                 // orbitVelocity: "170,503 km/h"
                 },
-                quizFacts: {
+            quiz: {
+                    Questions [
+                        {
+                            index: 0,
+                            question: "What is the distance from the sun?",
+                            wrong : [planets.earth.facts.distanceFromSun, planet.venus.facts.distanceFromSun]
+                        }
+                        {
+                            index: 1,
+                            question: "How many moons does Mercury have?",
+                            wrong: [planets.jupiter.facts.moons, planets.mars.facts.moons]
+                        }
+                        {
+                            index: 2,
+                            question: "How many Earth days are there in one year ?",
+                            wrong: [planets.uranus.facts.yearLength, planets.saturn.facts.yearLength]
+                        }
+                    ]
                     moons: "No Moons",
                     yearLength: "One year is 88 Earth days",
                     oneEarthDay: "One day is 59 Earth days",
@@ -57,7 +63,7 @@ db.planets.insertMany([
     {
         name: "Venus",
         img: "https://solarsystem.nasa.gov/system/downloadable_items/1082_PIA00271_detail.jpg",
-        description: "Second planet from the Sun and our closest planetary neighbor, Venus is similar in structure and size to Earth, but it is now a very different world. Venus spins slowly in the opposite direction most planets do. Its thick atmosphere traps heat in a runaway greenhouse effect, making it the hottest planet in our solar system—with surface temperatures hot enough to melt lead. Glimpses below the clouds reveal volcanoes and deformed mountains",
+        description: "Second planet from the Sun and our closest planetary neighbour, Venus is similar in structure and size to Earth, but it is now a very different world. Venus spins slowly in the opposite direction most planets do. Its thick atmosphere traps heat in a runaway greenhouse effect, making it the hottest planet in our solar system—with surface temperatures hot enough to melt lead. Glimpses below the clouds reveal volcanoes and deformed mountains",
         radius: 3760,
             funFacts: {
                 moons: "0",
