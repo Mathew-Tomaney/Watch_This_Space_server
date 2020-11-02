@@ -250,11 +250,11 @@ db.planets.insertMany([
                     },
                     {
                         question: "How many moons does Saturn have?",
-                        wrong: [planets.mars.funFacts.moons, planets.mercury.funFacts.moons]
+                        wrong: [planets.earth.funFacts.moons, planets.mercury.funFacts.moons]
                     },
                     { 
                         question: "How many Earth days are there in one year ?",
-                        wrong: [planets.earth.funFacts.yearLength, planets.jupiter.funFacts.yearLength]
+                        wrong: [planets.mars.funFacts.yearLength, planets.jupiter.funFacts.yearLength]
                     }
                 ]
             // quizFacts: {
@@ -284,14 +284,29 @@ db.planets.insertMany([
                 // orbitVelocity: ""
 
             },
-            quizFacts: {
-                moons: "27 moons",
-                yearLength: "One year is 30,687 Earth days",
-                oneEarthDay: "One day is 17.25 hours",
-                distanceFromSun: "1.783 billion miles", 
-                gravity: "8.87 m/s",
-                planetType: "Ice Giant",
-                temperature: "-195° celsius"
+            quiz: {
+                questions: [
+                    { 
+                        question: "What is the distance from the sun?",
+                        wrong: [planets.mars.funFacts.distanceFromSun, planet.mercury.funFacts.distanceFromSun]
+                    },
+                    {
+                        question: "How many moons does Uranus have?",
+                        wrong: [planets.venus.funFacts.moons, planets.neptune.funFacts.moons]
+                    },
+                    { 
+                        question: "How many Earth days are there in one year ?",
+                        wrong: [planets.mercury.funFacts.yearLength, planets.jupiter.funFacts.yearLength]
+                    }
+                ]
+            // quizFacts: {
+            //     moons: "27 moons",
+            //     yearLength: "One year is 30,687 Earth days",
+            //     oneEarthDay: "One day is 17.25 hours",
+            //     distanceFromSun: "1.783 billion miles", 
+            //     gravity: "8.87 m/s",
+            //     planetType: "Ice Giant",
+            //     temperature: "-195° celsius"
                 // orbitVelocity: ""
             }
     },
@@ -311,14 +326,29 @@ db.planets.insertMany([
                 // orbitVelocity: ""
 
             },
-            quizFacts: {
-                moons: "14 moons",
-                yearLength: "One year is 60,190 Earth days",
-                oneEarthDay: "One day is 16 hours",
-                distanceFromSun: "2.795 billion miles", 
-                gravity: "11.15 m/s",
-                planetType: "Ice Giant",
-                temperature: "-201° celsuis"
+            Quiz: {
+                questions: [
+                    { 
+                        question: "What is the distance from the sun?",
+                        wrong: [planets.uranus.funFacts.distanceFromSun, planet.saturn.funFacts.distanceFromSun]
+                    },
+                    {
+                        question: "How many moons does Neptune have?",
+                        wrong: [planets.earth.funFacts.moons, planets.jupiter.funFacts.moons]
+                    },
+                    { 
+                        question: "How many Earth days are there in one year ?",
+                        wrong: [planets.mars.funFacts.yearLength, planets.mercury.funFacts.yearLength]
+                    }
+                ]
+            // quizFacts: {
+            //     moons: "14 moons",
+            //     yearLength: "One year is 60,190 Earth days",
+            //     oneEarthDay: "One day is 16 hours",
+            //     distanceFromSun: "2.795 billion miles", 
+            //     gravity: "11.15 m/s",
+            //     planetType: "Ice Giant",
+            //     temperature: "-201° celsuis"
                 // orbitVelocity: ""
             }
     }
