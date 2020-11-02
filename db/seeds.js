@@ -15,49 +15,52 @@ db.planets.insertMany([
                 planetType: "Yellow Dwarf",
                 temperature: "5538 degrees celsuis",
 
-            },
-            quizFacts: {
-                moons: "No Moons",
-                yearLength: "One year is 230 million Earth years",
-                oneEarthDay: "One day is 59 Earth days",
-                distanceFromSun: "39.704 million miles",
-                gravity: "28 times stronger than Earths gravity",
-                planetType: "Terrestrial",
-                temperature: "5538 celsuis"
-            }
-        
-
+            },       
     },
     {
         name: "Mercury",
         img: "https://solarsystem.nasa.gov/system/stellar_items/image_files/2_feature_1600x900_mercury.jpg",
         description: "The smallest planet in our solar system and nearest to the Sun, Mercury is only slightly larger than Earths Moon. From the surface of Mercury, the Sun would appear more than three times as large as it does when viewed from Earth, and the sunlight would be as much as seven times brighter. Despite its proximity to the Sun, Mercury is not the hottest planet in our solar system",
         radius: 1516,
-            funfacts: {
+            funFacts: {
                 moons: "0",
                 yearLength: "88 Earth days",
-                oneEarthDay: " Earth days",
+                oneEarthDay: "59 Earth days",
                 distanceFromSun: "39.704 million miles",
                 gravity: "87 times weaker than the force of gravity on the surface of the Earth",
                 planetType: "Terrestrial",
                 temperature: "Temperatures are extreme, both hot and cold 800 degrees Fahrenheit /  430 degrees Celsius, during the day. Because the planet has no atmosphere to retain that heat, nighttime temperatures on the surface can drop to  -290 degrees Fahrenheit /  -180 degrees Celsius.",
                 // orbitVelocity: "170,503 km/h"
                 },
-                quizFacts: {
-                    moons: "No Moons",
-                    yearLength: "One year is 88 Earth days",
-                    oneEarthDay: "One day is 59 Earth days",
-                    distanceFromSun: "36 million miles",
-                    gravity: "87 times weaker than Earths gravity",
-                    planetType: "Terrestrial",
-                    temperature: "430° celsius / -180 celsuis",
+            quiz: {
+                    questions: [
+                        {
+                            question: "What is the distance from the sun?",
+                            wrong: [planets.earth.funFacts.distanceFromSun, planet.venus.funFacts.distanceFromSun]
+                        },
+                        {
+                            question: "How many moons does Mercury have?",
+                            wrong: [planets.jupiter.funFacts.moons, planets.mars.funFacts.moons]
+                        },
+                        {
+                            question: "How many Earth days are there in one year ?",
+                            wrong: [planets.uranus.funFacts.yearLength, planets.saturn.funFacts.yearLength]
+                        }
+                    ]
+                    // moons: "No Moons",
+                    // yearLength: "One year is 88 Earth days",
+                    // oneEarthDay: "One day is 59 Earth days",
+                    // distanceFromSun: "36 million miles",
+                    // gravity: "87 times weaker than Earths gravity",
+                    // planetType: "Terrestrial",
+                    // temperature: "430° celsius / -180 celsuis",
                     // orbitVelocity: "170,530 km/h"
                 }
     },
     {
         name: "Venus",
         img: "https://solarsystem.nasa.gov/system/downloadable_items/1082_PIA00271_detail.jpg",
-        description: "Second planet from the Sun and our closest planetary neighbor, Venus is similar in structure and size to Earth, but it is now a very different world. Venus spins slowly in the opposite direction most planets do. Its thick atmosphere traps heat in a runaway greenhouse effect, making it the hottest planet in our solar system—with surface temperatures hot enough to melt lead. Glimpses below the clouds reveal volcanoes and deformed mountains",
+        description: "Second planet from the Sun and our closest planetary neighbour, Venus is similar in structure and size to Earth, but it is now a very different world. Venus spins slowly in the opposite direction most planets do. Its thick atmosphere traps heat in a runaway greenhouse effect, making it the hottest planet in our solar system—with surface temperatures hot enough to melt lead. Glimpses below the clouds reveal volcanoes and deformed mountains",
         radius: 3760,
             funFacts: {
                 moons: "0",
@@ -70,15 +73,31 @@ db.planets.insertMany([
                 // orbitVelocity: ""
 
             },
-            quizFacts: {
-                moons: "No Moons",
-                yearLength: "One Year is 225 Earth days",
-                oneEarthDay: "One day is 243 Earth days",
-                distanceFromSun: "67 million miles", 
-                gravity: "Almost the same as Earth",
-                planetType: "Terrestrial",
-                temperature: "471° celsius"
+            quiz: {
+                questions: [
+                    { 
+                        question: "What is the distance from the sun?",
+                        wrong: [planets.mercury.funFacts.distanceFromSun, planet.jupiter.funFacts.distanceFromSun]
+                    },
+                    {
+                        question: "How many moons does Venus have?",
+                        wrong: [planets.uranus.funFacts.moons, planets.earth.funFacts.moons]
+                    },
+                    { 
+                        question: "How many Earth days are there in one year ?",
+                        wrong: [planets.neptune.funFacts.yearLength, planets.mars.funFacts.yearLength]
+                    }
+                ]
+            // quizFacts: {
+            //     moons: "No Moons",
+            //     yearLength: "One Year is 225 Earth days",
+            //     oneEarthDay: "One day is 243 Earth days",
+            //     distanceFromSun: "67 million miles", 
+            //     gravity: "Almost the same as Earth",
+            //     planetType: "Terrestrial",
+            //     temperature: "471° celsius"
                 // orbitVelocity: ""
+            // }
             }
     },
     {
@@ -97,14 +116,29 @@ db.planets.insertMany([
                 // orbitVelocity: ""
 
             },
-            quizFacts: {
-                moons: "1 Moon",
-                yearLength: "One year is 365 Earthdays",
-                oneEarthDay: "One day is 24 hours",
-                distanceFromSun: "93 million miles", 
-                gravity: "9.8 m/s",
-                planetType: "Terrestrial",
-                temperature: "16° celsuis"
+            quiz: {
+                questions: [
+                    { 
+                        question: "What is the distance from the sun?",
+                        wrong: [planets.mars.funFacts.distanceFromSun, planet.neptune.funFacts.distanceFromSun]
+                    },
+                    {
+                        question: "How many moons does Earth have?",
+                        wrong: [planets.jupiter.funFacts.moons, planets.mars.funFacts.moons]
+                    },
+                    { 
+                        question: "How many Earth days are there in one year ?",
+                        wrong: [planets.saturn.funFacts.yearLength, planets.venus.funFacts.yearLength]
+                    }
+                ]
+            // quizFacts: {
+            //     moons: "1 Moon",
+            //     yearLength: "One year is 365 Earthdays",
+            //     oneEarthDay: "One day is 24 hours",
+            //     distanceFromSun: "93 million miles", 
+            //     gravity: "9.8 m/s",
+            //     planetType: "Terrestrial",
+            //     temperature: "16° celsuis"
                 // orbitVelocity: ""
             }
     },
@@ -124,14 +158,29 @@ db.planets.insertMany([
                 // orbitVelocity: ""
 
             },
-            quizFacts: {
-                moons: "2 Moons",
-                yearLength: "One year is 687 Earth days",
-                oneEarthDay: "One day is 24.6 Earth hours",
-                distanceFromSun: "142 million miles", 
-                gravity: "3.71 m/s",
-                planetType: "Terrestrial",
-                temperature: "-28° celsius"
+            quiz: {
+                questions: [
+                    { 
+                        question: "What is the distance from the sun?",
+                        wrong: [planets.saturn.funFacts.distanceFromSun, planet.jupiter.funFacts.distanceFromSun]
+                    },
+                    {
+                        question: "How many moons does Mars have?",
+                        wrong: [planets.earth.funFacts.moons, planets.venus.funFacts.moons]
+                    },
+                    { 
+                        question: "How many Earth days are there in one year ?",
+                        wrong: [planets.jupiter.funFacts.yearLength, planets.mercury.funFacts.yearLength]
+                    }
+                ]
+            // quizFacts: {
+            //     moons: "2 Moons",
+            //     yearLength: "One year is 687 Earth days",
+            //     oneEarthDay: "One day is 24.6 Earth hours",
+            //     distanceFromSun: "142 million miles", 
+            //     gravity: "3.71 m/s",
+            //     planetType: "Terrestrial",
+            //     temperature: "-28° celsius"
                 // orbitVelocity: ""
             }
     },
@@ -151,14 +200,29 @@ db.planets.insertMany([
                 // orbitVelocity: ""
 
             },
-            quizFacts: {
-                moons: "79 moons",
-                yearLength: "One year is 4,380 Earth days",
-                oneEarthDay: "One day is 10 hours",
-                distanceFromSun: "484 million miles",
-                gravity: "24.79 m/s",
-                planetType: "Gas Giant",
-                temperature: "-108° celsius"
+            quiz: {
+                questions: [
+                    { 
+                        question: "What is the distance from the sun?",
+                        wrong: [planets.earth.funFacts.distanceFromSun, planet.mercury.funFacts.distanceFromSun]
+                    },
+                    {
+                        question: "How many moons does Jupiter have?",
+                        wrong: [planets.venus.funFacts.moons, planets.saturn.funFacts.moons]
+                    },
+                    { 
+                        question: "How many Earth days are there in one year ?",
+                        wrong: [planets.mars.funFacts.yearLength, planets.neptune.funFacts.yearLength]
+                    }
+                ]
+            // quizFacts: {
+            //     moons: "79 moons",
+            //     yearLength: "One year is 4,380 Earth days",
+            //     oneEarthDay: "One day is 10 hours",
+            //     distanceFromSun: "484 million miles",
+            //     gravity: "24.79 m/s",
+            //     planetType: "Gas Giant",
+            //     temperature: "-108° celsius"
                 // orbitVelocity: ""
             }
     },
@@ -178,14 +242,29 @@ db.planets.insertMany([
                 // orbitVelocity: ""
 
             },
-            quizFacts: {
-                moons: "62 moons",
-                yearLength: "One year is 10,759 Earth days",
-                oneEarthDay: "One day is 10.7 hours",
-                distanceFromSun: "929 million miles", 
-                gravity: "10.4 m/s",
-                planetType: "Gas Giant",
-                temperature: "-138° celsuis"
+            quiz: {
+                questions: [
+                    { 
+                        question: "What is the distance from the sun?",
+                        wrong: [planets.mercury.funFacts.distanceFromSun, planet.neptune.funFacts.distanceFromSun]
+                    },
+                    {
+                        question: "How many moons does Saturn have?",
+                        wrong: [planets.earth.funFacts.moons, planets.mercury.funFacts.moons]
+                    },
+                    { 
+                        question: "How many Earth days are there in one year ?",
+                        wrong: [planets.mars.funFacts.yearLength, planets.jupiter.funFacts.yearLength]
+                    }
+                ]
+            // quizFacts: {
+            //     moons: "62 moons",
+            //     yearLength: "One year is 10,759 Earth days",
+            //     oneEarthDay: "One day is 10.7 hours",
+            //     distanceFromSun: "929 million miles", 
+            //     gravity: "10.4 m/s",
+            //     planetType: "Gas Giant",
+            //     temperature: "-138° celsuis"
                 // orbitVelocity: ""
             }
     },
@@ -205,14 +284,29 @@ db.planets.insertMany([
                 // orbitVelocity: ""
 
             },
-            quizFacts: {
-                moons: "27 moons",
-                yearLength: "One year is 30,687 Earth days",
-                oneEarthDay: "One day is 17.25 hours",
-                distanceFromSun: "1.783 billion miles", 
-                gravity: "8.87 m/s",
-                planetType: "Ice Giant",
-                temperature: "-195° celsius"
+            quiz: {
+                questions: [
+                    { 
+                        question: "What is the distance from the sun?",
+                        wrong: [planets.mars.funFacts.distanceFromSun, planet.mercury.funFacts.distanceFromSun]
+                    },
+                    {
+                        question: "How many moons does Uranus have?",
+                        wrong: [planets.venus.funFacts.moons, planets.neptune.funFacts.moons]
+                    },
+                    { 
+                        question: "How many Earth days are there in one year ?",
+                        wrong: [planets.mercury.funFacts.yearLength, planets.jupiter.funFacts.yearLength]
+                    }
+                ]
+            // quizFacts: {
+            //     moons: "27 moons",
+            //     yearLength: "One year is 30,687 Earth days",
+            //     oneEarthDay: "One day is 17.25 hours",
+            //     distanceFromSun: "1.783 billion miles", 
+            //     gravity: "8.87 m/s",
+            //     planetType: "Ice Giant",
+            //     temperature: "-195° celsius"
                 // orbitVelocity: ""
             }
     },
@@ -232,14 +326,29 @@ db.planets.insertMany([
                 // orbitVelocity: ""
 
             },
-            quizFacts: {
-                moons: "14 moons",
-                yearLength: "One year is 60,190 Earth days",
-                oneEarthDay: "One day is 16 hours",
-                distanceFromSun: "2.795 billion miles", 
-                gravity: "11.15 m/s",
-                planetType: "Ice Giant",
-                temperature: "-201° celsuis"
+            Quiz: {
+                questions: [
+                    { 
+                        question: "What is the distance from the sun?",
+                        wrong: [planets.uranus.funFacts.distanceFromSun, planet.saturn.funFacts.distanceFromSun]
+                    },
+                    {
+                        question: "How many moons does Neptune have?",
+                        wrong: [planets.earth.funFacts.moons, planets.jupiter.funFacts.moons]
+                    },
+                    { 
+                        question: "How many Earth days are there in one year ?",
+                        wrong: [planets.mars.funFacts.yearLength, planets.mercury.funFacts.yearLength]
+                    }
+                ]
+            // quizFacts: {
+            //     moons: "14 moons",
+            //     yearLength: "One year is 60,190 Earth days",
+            //     oneEarthDay: "One day is 16 hours",
+            //     distanceFromSun: "2.795 billion miles", 
+            //     gravity: "11.15 m/s",
+            //     planetType: "Ice Giant",
+            //     temperature: "-201° celsuis"
                 // orbitVelocity: ""
             }
     }
