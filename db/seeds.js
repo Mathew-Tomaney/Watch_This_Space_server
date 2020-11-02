@@ -36,14 +36,17 @@ db.planets.insertMany([
                     questions: [
                         {
                             question: "What is the distance from the sun?",
+                            answer: "Mercury is 39.704 million miles",
                             wrong: [planets.earth.funFacts.distanceFromSun, planet.venus.funFacts.distanceFromSun]
                         },
                         {
                             question: "How many moons does Mercury have?",
+                            answer: "Mercury has no moons",
                             wrong: [planets.jupiter.funFacts.moons, planets.mars.funFacts.moons]
                         },
                         {
                             question: "How many Earth days are there in one year ?",
+                            answer: "One year is 88 Earth days",
                             wrong: [planets.uranus.funFacts.yearLength, planets.saturn.funFacts.yearLength]
                         }
                     ]
@@ -77,14 +80,17 @@ db.planets.insertMany([
                 questions: [
                     { 
                         question: "What is the distance from the sun?",
+                        answer: "Venus is 67 million miles"
                         wrong: [planets.mercury.funFacts.distanceFromSun, planet.jupiter.funFacts.distanceFromSun]
                     },
                     {
                         question: "How many moons does Venus have?",
+                        answer: "Venus has no moons",
                         wrong: [planets.uranus.funFacts.moons, planets.earth.funFacts.moons]
                     },
                     { 
                         question: "How many Earth days are there in one year ?",
+                        answer: "One year is 225 Earth days",
                         wrong: [planets.neptune.funFacts.yearLength, planets.mars.funFacts.yearLength]
                     }
                 ]
