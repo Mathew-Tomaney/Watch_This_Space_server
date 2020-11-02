@@ -190,8 +190,9 @@ db.planets.insertMany([
             }
     },
     {
-        name: "Uranus",
-        img: "https://images.ctfassets.net/cnu0m8re1exe/7hQBr1Got3iOOxCn4yJqSy/8ac59ceb4d08d0474a2688ac976b1693/neptune1-1024x727.jpg?w=650&h=433&fit=fill.jpg",
+        name: "Uranus", 
+        // img: "https://images.ctfassets.net/cnu0m8re1exe/7hQBr1Got3iOOxCn4yJqSy/8ac59ceb4d08d0474a2688ac976b1693/neptune1-1024x727.jpg?w=650&h=433&fit=fill.jpg",
+        img: "https://en.wikipedia.org/wiki/Uranus#/media/File:Uranus2.jpg",
         description: "The seventh planet from the Sun with the third largest diameter in our solar system, Uranus is very cold and windy. The ice giant is surrounded by 13 faint rings and 27 small moons as it rotates at a nearly 90-degree angle from the plane of its orbit. This unique tilt makes Uranus appear to spin on its side, orbiting the Sun like a rolling ball.",
         radius: 15759,
             funFacts: {
@@ -218,7 +219,7 @@ db.planets.insertMany([
     },
     {
         name: "Neptune",
-        img: "https://solarsystem.nasa.gov/system/stellar_items/image_files/90_feature_1600x900_4.jpg'",
+        img: "https://solarsystem.nasa.gov/system/stellar_items/image_files/90_feature_1600x900_4.jpg",
         description: "Dark, cold and whipped by supersonic winds, ice giant Neptune is the eighth and most distant planet in our solar system. More than 30 times as far from the Sun as Earth, Neptune is the only planet in our solar system not visible to the naked eye. In 2011 Neptune completed its first 165-year orbit since its discovery in 1846. Neptune is so far from the Sun that high noon on the big blue planet would seem like dim twilight to us. The warm light we see here on our home planet is roughly 900 times as bright as sunlight on Neptune.",
         radius: 15299,
             funFacts: {
