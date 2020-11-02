@@ -158,14 +158,29 @@ db.planets.insertMany([
                 // orbitVelocity: ""
 
             },
-            quizFacts: {
-                moons: "2 Moons",
-                yearLength: "One year is 687 Earth days",
-                oneEarthDay: "One day is 24.6 Earth hours",
-                distanceFromSun: "142 million miles", 
-                gravity: "3.71 m/s",
-                planetType: "Terrestrial",
-                temperature: "-28° celsius"
+            quiz: {
+                questions: [
+                    { 
+                        question: "What is the distance from the sun?",
+                        wrong: [planets.saturn.facts.distanceFromSun, planet.jupiter.facts.distanceFromSun]
+                    },
+                    {
+                        question: "How many moons does Mars have?",
+                        wrong: [planets.earth.facts.moons, planets.venus.facts.moons]
+                    },
+                    { 
+                        question: "How many Earth days are there in one year ?",
+                        wrong: [planets.jupiter.facts.yearLength, planets.mercury.facts.yearLength]
+                    }
+                ]
+            // quizFacts: {
+            //     moons: "2 Moons",
+            //     yearLength: "One year is 687 Earth days",
+            //     oneEarthDay: "One day is 24.6 Earth hours",
+            //     distanceFromSun: "142 million miles", 
+            //     gravity: "3.71 m/s",
+            //     planetType: "Terrestrial",
+            //     temperature: "-28° celsius"
                 // orbitVelocity: ""
             }
     },
