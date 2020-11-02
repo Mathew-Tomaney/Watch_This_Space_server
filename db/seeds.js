@@ -306,14 +306,17 @@ db.planets.insertMany([
                 questions: [
                     { 
                         question: "What is the distance from the sun?",
+                        answer: "1.783 billion miles",
                         wrong: [planets.mars.funFacts.distanceFromSun, planet.mercury.funFacts.distanceFromSun]
                     },
                     {
                         question: "How many moons does Uranus have?",
+                        answer: "27",
                         wrong: [planets.venus.funFacts.moons, planets.neptune.funFacts.moons]
                     },
                     { 
                         question: "How many Earth days are there in one year ?",
+                        answer: "30,687 Earth days",
                         wrong: [planets.mercury.funFacts.yearLength, planets.jupiter.funFacts.yearLength]
                     }
                 ]
@@ -335,7 +338,7 @@ db.planets.insertMany([
         radius: 15299,
             funFacts: {
                 moons: "14",
-                yearLength: "One year is 60,190 Earth days",
+                yearLength: "60,190 Earth days",
                 oneEarthDay: "16 hours",
                 distanceFromSun: "2.795 billion miles", 
                 gravity: "Almost the same as Earth",
@@ -348,14 +351,17 @@ db.planets.insertMany([
                 questions: [
                     { 
                         question: "What is the distance from the sun?",
+                        answer: "2.795 billion miles",
                         wrong: [planets.uranus.funFacts.distanceFromSun, planet.saturn.funFacts.distanceFromSun]
                     },
                     {
                         question: "How many moons does Neptune have?",
+                        answer: "14",
                         wrong: [planets.earth.funFacts.moons, planets.jupiter.funFacts.moons]
                     },
                     { 
                         question: "How many Earth days are there in one year ?",
+                        answer: "60,190 Earth days",
                         wrong: [planets.mars.funFacts.yearLength, planets.mercury.funFacts.yearLength]
                     }
                 ]
