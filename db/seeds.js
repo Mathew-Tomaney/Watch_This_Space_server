@@ -1,4 +1,4 @@
-use solarSystem
+use solarsystem
 db.dropDatabase()
 
 // info from here: https://solarsystem.nasa.gov/solar-system/our-solar-system/overview/ & https://github.com/mawais54013/Solar-System/blob/master/index.js
