@@ -347,7 +347,7 @@ db.planets.insertMany([
                 // orbitVelocity: ""
 
             },
-            Quiz: {
+            quiz: {
                 questions: [
                     { 
                         question: "What is the distance from the sun?",
