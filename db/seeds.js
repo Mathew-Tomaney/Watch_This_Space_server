@@ -13,7 +13,7 @@ db.planets.insertMany([
                 yearLength: "230 million earth years",
                 gravity: "28 times stronger than Earth",
                 planetType: "Yellow Dwarf",
-                temperature: "5538 degrees celsuis",
+                temperature: "5538 degrees celsius",
 
             },       
     },
@@ -37,17 +37,17 @@ db.planets.insertMany([
                         {
                             question: "What is the distance from the sun?",
                             answer: "39.704 million miles",
-                            wrong: [planets.earth.funFacts.distanceFromSun, planet.venus.funFacts.distanceFromSun]
+                            wrong: ["planets.earth.funFacts.distanceFromSun", "planets.venus.funFacts.distanceFromSun"]
                         },
                         {
                             question: "How many moons does Mercury have?",
                             answer: "0",
-                            wrong: [planets.jupiter.funFacts.moons, planets.mars.funFacts.moons]
+                            wrong: ["planets.jupiter.funFacts.moons", "planets.mars.funFacts.moons"]
                         },
                         {
                             question: "How many Earth days are there in one year ?",
                             answer: "88 Earth days",
-                            wrong: [planets.uranus.funFacts.yearLength, planets.saturn.funFacts.yearLength]
+                            wrong: ["planets.uranus.funFacts.yearLength", "planets.saturn.funFacts.yearLength"]
                         }
                     ]
                     // moons: "No Moons",
@@ -56,7 +56,7 @@ db.planets.insertMany([
                     // distanceFromSun: "36 million miles",
                     // gravity: "87 times weaker than Earths gravity",
                     // planetType: "Terrestrial",
-                    // temperature: "430° celsius / -180 celsuis",
+                    // temperature: "430° celsius / -180 celsius",
                     // orbitVelocity: "170,530 km/h"
                 }
     },
@@ -72,7 +72,7 @@ db.planets.insertMany([
                 distanceFromSun: "67 million miles", 
                 gravity: "Almost the same as Earth",
                 planetType: "Terrestrial",
-                temperature: "471° celsuis"
+                temperature: "471° celsius"
                 // orbitVelocity: ""
 
             },
@@ -81,17 +81,17 @@ db.planets.insertMany([
                     { 
                         question: "What is the distance from the sun?",
                         answer: "67 million miles",
-                        wrong: [planets.mercury.funFacts.distanceFromSun, planet.jupiter.funFacts.distanceFromSun]
+                        wrong: ["planets.mercury.funFacts.distanceFromSun", "planet.jupiter.funFacts.distanceFromSun"]
                     },
                     {
                         question: "How many moons does Venus have?",
                         answer: "0",
-                        wrong: [planets.uranus.funFacts.moons, planets.earth.funFacts.moons]
+                        wrong: ["planets.uranus.funFacts.moons", "planets.earth.funFacts.moons"]
                     },
                     { 
                         question: "How many Earth days are there in one year ?",
                         answer: "225 Earth days",
-                        wrong: [planets.neptune.funFacts.yearLength, planets.mars.funFacts.yearLength]
+                        wrong: ["planets.neptune.funFacts.yearLength", "planets.mars.funFacts.yearLength"]
                     }
                 ]
             // quizFacts: {
@@ -118,7 +118,7 @@ db.planets.insertMany([
                 distanceFromSun: "93 million miles", 
                 gravity: "9.8 m/s",
                 planetType: "Terrestrial",
-                temperature: "16° celsuis"
+                temperature: "16° celsius"
                 // orbitVelocity: ""
 
             },
@@ -127,17 +127,17 @@ db.planets.insertMany([
                     { 
                         question: "What is the distance from the sun?",
                         answer: "93 million miles",
-                        wrong: [planets.mars.funFacts.distanceFromSun, planet.neptune.funFacts.distanceFromSun]
+                        wrong: ["planets.mars.funFacts.distanceFromSun", "planet.neptune.funFacts.distanceFromSun"]
                     },
                     {
                         question: "How many moons does Earth have?",
                         answer: "1",
-                        wrong: [planets.jupiter.funFacts.moons, planets.mars.funFacts.moons]
+                        wrong: ["planets.jupiter.funFacts.moons", "planets.mars.funFacts.moons"]
                     },
                     { 
                         question: "How many Earth days are there in one year ?",
                         answer: "365 Earth days",
-                        wrong: [planets.saturn.funFacts.yearLength, planets.venus.funFacts.yearLength]
+                        wrong: ["planets.saturn.funFacts.yearLength", "planets.venus.funFacts.yearLength"]
                     }
                 ]
             // quizFacts: {
@@ -147,7 +147,7 @@ db.planets.insertMany([
             //     distanceFromSun: "93 million miles", 
             //     gravity: "9.8 m/s",
             //     planetType: "Terrestrial",
-            //     temperature: "16° celsuis"
+            //     temperature: "16° celsius"
                 // orbitVelocity: ""
             }
     },
@@ -172,17 +172,17 @@ db.planets.insertMany([
                     { 
                         question: "What is the distance from the sun?",
                         answer: "142 million miles",
-                        wrong: [planets.saturn.funFacts.distanceFromSun, planet.jupiter.funFacts.distanceFromSun]
+                        wrong: ["planets.saturn.funFacts.distanceFromSun", "planet.jupiter.funFacts.distanceFromSun"]
                     },
                     {
                         question: "How many moons does Mars have?",
                         answer: "2",
-                        wrong: [planets.earth.funFacts.moons, planets.venus.funFacts.moons]
+                        wrong: ["planets.earth.funFacts.moons", "planets.venus.funFacts.moons"]
                     },
                     { 
                         question: "How many Earth days are there in one year ?",
                         answer: "687 Earth days",
-                        wrong: [planets.jupiter.funFacts.yearLength, planets.mercury.funFacts.yearLength]
+                        wrong: ["planets.jupiter.funFacts.yearLength", "planets.mercury.funFacts.yearLength"]
                     }
                 ]
             // quizFacts: {
@@ -217,17 +217,17 @@ db.planets.insertMany([
                     { 
                         question: "What is the distance from the sun?",
                         answer: "484 million miles",
-                        wrong: [planets.earth.funFacts.distanceFromSun, planet.mercury.funFacts.distanceFromSun]
+                        wrong: ["planets.earth.funFacts.distanceFromSun", "planet.mercury.funFacts.distanceFromSun"]
                     },
                     {
                         question: "How many moons does Jupiter have?",
                         answer: "79",
-                        wrong: [planets.venus.funFacts.moons, planets.saturn.funFacts.moons]
+                        wrong: ["planets.venus.funFacts.moons", "planets.saturn.funFacts.moons"]
                     },
                     { 
                         question: "How many Earth days are there in one year ?",
                         answer: "4,380 Earth days",
-                        wrong: [planets.mars.funFacts.yearLength, planets.neptune.funFacts.yearLength]
+                        wrong: ["planets.mars.funFacts.yearLength", "planets.neptune.funFacts.yearLength"]
                     }
                 ]
             // quizFacts: {
@@ -253,7 +253,7 @@ db.planets.insertMany([
                 distanceFromSun: "929 million miles", 
                 gravity: "Almost the same as Earth",
                 planetType: "Gas Giant",
-                temperature: "-138° celsuis"
+                temperature: "-138° celsius"
                 // orbitVelocity: ""
 
             },
@@ -262,17 +262,17 @@ db.planets.insertMany([
                     { 
                         question: "What is the distance from the sun?",
                         answer: "929 million miles",
-                        wrong: [planets.mercury.funFacts.distanceFromSun, planet.neptune.funFacts.distanceFromSun]
+                        wrong: ["planets.mercury.funFacts.distanceFromSun", "planet.neptune.funFacts.distanceFromSun"]
                     },
                     {
                         question: "How many moons does Saturn have?",
                         answer: "62",
-                        wrong: [planets.earth.funFacts.moons, planets.mercury.funFacts.moons]
+                        wrong: ["planets.earth.funFacts.moons", "planets.mercury.funFacts.moons"]
                     },
                     { 
                         question: "How many Earth days are there in one year ?",
                         answer: "10,759 Earth days",
-                        wrong: [planets.mars.funFacts.yearLength, planets.jupiter.funFacts.yearLength]
+                        wrong: ["planets.mars.funFacts.yearLength", "planets.jupiter.funFacts.yearLength"]
                     }
                 ]
             // quizFacts: {
@@ -282,7 +282,7 @@ db.planets.insertMany([
             //     distanceFromSun: "929 million miles", 
             //     gravity: "10.4 m/s",
             //     planetType: "Gas Giant",
-            //     temperature: "-138° celsuis"
+            //     temperature: "-138° celsius"
                 // orbitVelocity: ""
             }
     },
@@ -307,17 +307,17 @@ db.planets.insertMany([
                     { 
                         question: "What is the distance from the sun?",
                         answer: "1.783 billion miles",
-                        wrong: [planets.mars.funFacts.distanceFromSun, planet.mercury.funFacts.distanceFromSun]
+                        wrong: ["planets.mars.funFacts.distanceFromSun", "planet.mercury.funFacts.distanceFromSun"]
                     },
                     {
                         question: "How many moons does Uranus have?",
                         answer: "27",
-                        wrong: [planets.venus.funFacts.moons, planets.neptune.funFacts.moons]
+                        wrong: ["planets.venus.funFacts.moons", "planets.neptune.funFacts.moons"]
                     },
                     { 
                         question: "How many Earth days are there in one year ?",
                         answer: "30,687 Earth days",
-                        wrong: [planets.mercury.funFacts.yearLength, planets.jupiter.funFacts.yearLength]
+                        wrong: ["planets.mercury.funFacts.yearLength", "planets.jupiter.funFacts.yearLength"]
                     }
                 ]
             // quizFacts: {
@@ -352,17 +352,17 @@ db.planets.insertMany([
                     { 
                         question: "What is the distance from the sun?",
                         answer: "2.795 billion miles",
-                        wrong: [planets.uranus.funFacts.distanceFromSun, planet.saturn.funFacts.distanceFromSun]
+                        wrong: ["planets.uranus.funFacts.distanceFromSun", "planet.saturn.funFacts.distanceFromSun"]
                     },
                     {
                         question: "How many moons does Neptune have?",
                         answer: "14",
-                        wrong: [planets.earth.funFacts.moons, planets.jupiter.funFacts.moons]
+                        wrong: ["planets.earth.funFacts.moons", "planets.jupiter.funFacts.moons"]
                     },
                     { 
                         question: "How many Earth days are there in one year ?",
                         answer: "60,190 Earth days",
-                        wrong: [planets.mars.funFacts.yearLength, planets.mercury.funFacts.yearLength]
+                        wrong: ["planets.mars.funFacts.yearLength", "planets.mercury.funFacts.yearLength"]
                     }
                 ]
             // quizFacts: {
@@ -372,7 +372,7 @@ db.planets.insertMany([
             //     distanceFromSun: "2.795 billion miles", 
             //     gravity: "11.15 m/s",
             //     planetType: "Ice Giant",
-            //     temperature: "-201° celsuis"
+            //     temperature: "-201° celsius"
                 // orbitVelocity: ""
             }
     }
