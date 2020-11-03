@@ -36,17 +36,17 @@ db.planets.insertMany([
             quiz: {
                     questions: [
                         {
-                            question: "What is the distance from the sun?",
+                            question: "How far is Mercury from the sun?",
                             answer: "39.704 million miles",
                             wrong: ["93 million miles", "67 million miles"]
                         },
                         {
                             question: "How many moons does Mercury have?",
-                            answer: "0",
-                            wrong: ["79", "2"]
+                            answer: "0 moons",
+                            wrong: ["79 moons", "2 moons"]
                         },
                         {
-                            question: "How many Earth days are there in one year ?",
+                            question: "How many Earth days are there in one year on Mercury?",
                             answer: "88 Earth days",
                             wrong: ["30,687 Earth days", "10,759 Earth days"]
                         }
@@ -81,19 +81,19 @@ db.planets.insertMany([
             quiz: {
                 questions: [
                     { 
-                        question: "What is the distance from the sun?",
+                        question: "How far is Venus from the sun?",
                         answer: "67 million miles",
                         wrong: ["39.704 million miles", "484 million miles"]
                     },
                     {
                         question: "How many moons does Venus have?",
-                        answer: "0",
-                        wrong: ["27", "1"]
+                        answer: "0 moons",
+                        wrong: ["27 moons", "2 moon"]
                     },
                     { 
-                        question: "How many Earth days are there in one year ?",
+                        question: "How many Earth days are there in one year on Venus?",
                         answer: "225 Earth days",
-                        wrong: ["60,190 Earth days", "24.6 hours"]
+                        wrong: ["60,190 Earth days", "1 Earth day"]
                     }
                 ]
             // quizFacts: {
@@ -116,7 +116,7 @@ db.planets.insertMany([
         radius: 3958,
             funFacts: {
                 moons: "1",
-                yearLength: "365 Earth days",
+                yearLength: "365 days",
                 oneEarthDay: "24 hours",
                 distanceFromSun: "93 million miles", 
                 gravity: "9.8 m/s",
@@ -128,19 +128,19 @@ db.planets.insertMany([
             quiz: {
                 questions: [
                     { 
-                        question: "What is the distance from the sun?",
+                        question: "How far is Earth from the sun?",
                         answer: "93 million miles",
                         wrong: ["142 million miles", "2.795 billion miles"]
                     },
                     {
                         question: "How many moons does Earth have?",
-                        answer: "1",
-                        wrong: ["79", "2"]
+                        answer: "1 moons",
+                        wrong: ["79 moons", "2 moons"]
                     },
                     { 
-                        question: "How many Earth days are there in one year ?",
-                        answer: "365 Earth days",
-                        wrong: ["10,759 Earth days", "225 Earth days"]
+                        question: "How many days are there in one year on Earth?",
+                        answer: "365 days",
+                        wrong: ["10,759 days", "225 days"]
                     }
                 ]
             // quizFacts: {
@@ -174,17 +174,17 @@ db.planets.insertMany([
             quiz: {
                 questions: [
                     { 
-                        question: "What is the distance from the sun?",
+                        question: "How far is Mars from the sun?",
                         answer: "142 million miles",
                         wrong: ["929 million miles", "67 million miles"]
                     },
                     {
                         question: "How many moons does Mars have?",
-                        answer: "2",
-                        wrong: ["1", "79"]
+                        answer: "2 moons",
+                        wrong: ["1 moons", "79 moons"]
                     },
                     { 
-                        question: "How many Earth days are there in one year ?",
+                        question: "How many Earth days are there in one year on Mars?",
                         answer: "687 Earth days",
                         wrong: ["4,380 Earth days", "488 Earth days"]
                     }
@@ -220,19 +220,19 @@ db.planets.insertMany([
             quiz: {
                 questions: [
                     { 
-                        question: "What is the distance from the sun?",
+                        question: "How far is Jupiter from the sun?",
                         answer: "484 million miles",
                         wrong: ["93 million miles", "39.704 million miles"]
                     },
                     {
                         question: "How many moons does Jupiter have?",
-                        answer: "79",
-                        wrong: ["0", "62"]
+                        answer: "79 moons",
+                        wrong: ["0 moons", "62 moons"]
                     },
                     { 
-                        question: "How many Earth days are there in one year ?",
+                        question: "How many Earth days are there in one year on Jupiter?",
                         answer: "4,380 Earth days",
-                        wrong: ["24.6 hours", "60,190 Earth days"]
+                        wrong: ["10,759 Earth days", "60,190 Earth days"]
                     }
                 ]
             // quizFacts: {
@@ -266,19 +266,19 @@ db.planets.insertMany([
             quiz: {
                 questions: [
                     { 
-                        question: "What is the distance from the sun?",
+                        question: "How far is Saturn from the sun?",
                         answer: "929 million miles",
                         wrong: ["39.704 million miles", "2.795 billion miles"]
                     },
                     {
                         question: "How many moons does Saturn have?",
-                        answer: "62",
-                        wrong: ["1", "0"]
+                        answer: "62 moons",
+                        wrong: ["1 moons", "0 moons"]
                     },
                     { 
-                        question: "How many Earth days are there in one year ?",
+                        question: "How many Earth days are there in one year on Saturn?",
                         answer: "10,759 Earth days",
-                        wrong: ["24.6 hours", "4,380 Earth days"]
+                        wrong: ["1 Earth day", "4,380 Earth days"]
                     }
                 ]
             // quizFacts: {
@@ -312,17 +312,17 @@ db.planets.insertMany([
             quiz: {
                 questions: [
                     { 
-                        question: "What is the distance from the sun?",
+                        question: "How far is Uranus from the sun?",
                         answer: "1.783 billion miles",
                         wrong: ["142 million miles", "39.704 million miles"]
                     },
                     {
                         question: "How many moons does Uranus have?",
-                        answer: "27",
-                        wrong: ["0", "14"]
+                        answer: "27 moons",
+                        wrong: ["0 moons", "14 moons"]
                     },
                     { 
-                        question: "How many Earth days are there in one year ?",
+                        question: "How many Earth days are there in one year on Uranus?",
                         answer: "30,687 Earth days",
                         wrong: ["488 Earth days", "4,380 Earth day"]
                     }
@@ -358,19 +358,19 @@ db.planets.insertMany([
             quiz: {
                 questions: [
                     { 
-                        question: "What is the distance from the sun?",
+                        question: "How far is Neptune from the sun?",
                         answer: "2.795 billion miles",
                         wrong: ["1.783 billion miles", "929 million miles"]
                     },
                     {
                         question: "How many moons does Neptune have?",
-                        answer: "14",
-                        wrong: ["1", "79"]
+                        answer: "14 moons",
+                        wrong: ["1 moons", "79 moons"]
                     },
                     { 
-                        question: "How many Earth days are there in one year ?",
+                        question: "How many Earth days are there in one year on Neptune?",
                         answer: "60,190 Earth days",
-                        wrong: ["24.6 hours", "488 Earth days"]
+                        wrong: ["1 Earth day", "488 Earth days"]
                     }
                 ]
             // quizFacts: {
