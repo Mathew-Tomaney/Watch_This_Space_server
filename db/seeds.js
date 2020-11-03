@@ -15,7 +15,8 @@ db.planets.insertMany([
                 planetType: "Yellow Dwarf",
                 temperature: "5538 degrees celsius",
 
-            },       
+            },    
+            isPlanet: false   
     },
     {
         name: "Mercury",
@@ -58,7 +59,8 @@ db.planets.insertMany([
                     // planetType: "Terrestrial",
                     // temperature: "430° celsius / -180 celsius",
                     // orbitVelocity: "170,530 km/h"
-                }
+                },
+                isPlanet: true
     },
     {
         name: "Venus",
@@ -104,7 +106,8 @@ db.planets.insertMany([
             //     temperature: "471° celsius"
                 // orbitVelocity: ""
             // }
-            }
+            },
+            isPlanet: true
     },
     {
         name: "Earth",
@@ -149,7 +152,8 @@ db.planets.insertMany([
             //     planetType: "Terrestrial",
             //     temperature: "16° celsius"
                 // orbitVelocity: ""
-            }
+            },
+            isPlanet: true
     },
     {
         name: "Mars",
@@ -194,7 +198,8 @@ db.planets.insertMany([
             //     planetType: "Terrestrial",
             //     temperature: "-28° celsius"
                 // orbitVelocity: ""
-            }
+            },
+            isPlanet: true
     },
     {
         name: "Jupiter",
@@ -239,7 +244,8 @@ db.planets.insertMany([
             //     planetType: "Gas Giant",
             //     temperature: "-108° celsius"
                 // orbitVelocity: ""
-            }
+            },
+            isPlanet: true
     },
     {
         name: "Saturn",
@@ -284,7 +290,8 @@ db.planets.insertMany([
             //     planetType: "Gas Giant",
             //     temperature: "-138° celsius"
                 // orbitVelocity: ""
-            }
+            },
+            isPlanet: true
     },
     {
         name: "Uranus",
@@ -329,7 +336,8 @@ db.planets.insertMany([
             //     planetType: "Ice Giant",
             //     temperature: "-195° celsius"
                 // orbitVelocity: ""
-            }
+            },
+            isPlanet: true
     },
     {
         name: "Neptune",
@@ -374,7 +382,8 @@ db.planets.insertMany([
             //     planetType: "Ice Giant",
             //     temperature: "-201° celsius"
                 // orbitVelocity: ""
-            }
+            },
+            isPlanet: true
     }
     // {
     //     name: "Pluto",
