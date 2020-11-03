@@ -37,17 +37,17 @@ db.planets.insertMany([
                         {
                             question: "What is the distance from the sun?",
                             answer: "39.704 million miles",
-                            wrong: ["planets.earth.funFacts.distanceFromSun", "planets.venus.funFacts.distanceFromSun"]
+                            wrong: ["93 million miles", "67 million miles"]
                         },
                         {
                             question: "How many moons does Mercury have?",
                             answer: "0",
-                            wrong: ["planets.jupiter.funFacts.moons", "planets.mars.funFacts.moons"]
+                            wrong: ["79", "2"]
                         },
                         {
                             question: "How many Earth days are there in one year ?",
                             answer: "88 Earth days",
-                            wrong: ["planets.uranus.funFacts.yearLength", "planets.saturn.funFacts.yearLength"]
+                            wrong: ["30,687 Earth days", "10,759 Earth days"]
                         }
                     ]
                     // moons: "No Moons",
@@ -81,17 +81,17 @@ db.planets.insertMany([
                     { 
                         question: "What is the distance from the sun?",
                         answer: "67 million miles",
-                        wrong: ["planets.mercury.funFacts.distanceFromSun", "planet.jupiter.funFacts.distanceFromSun"]
+                        wrong: ["39.704 million miles", "484 million miles"]
                     },
                     {
                         question: "How many moons does Venus have?",
                         answer: "0",
-                        wrong: ["planets.uranus.funFacts.moons", "planets.earth.funFacts.moons"]
+                        wrong: ["27", "1"]
                     },
                     { 
                         question: "How many Earth days are there in one year ?",
                         answer: "225 Earth days",
-                        wrong: ["planets.neptune.funFacts.yearLength", "planets.mars.funFacts.yearLength"]
+                        wrong: ["60,190 Earth days", "24.6 hours"]
                     }
                 ]
             // quizFacts: {
@@ -127,17 +127,17 @@ db.planets.insertMany([
                     { 
                         question: "What is the distance from the sun?",
                         answer: "93 million miles",
-                        wrong: ["planets.mars.funFacts.distanceFromSun", "planet.neptune.funFacts.distanceFromSun"]
+                        wrong: ["142 million miles", "2.795 billion miles"]
                     },
                     {
                         question: "How many moons does Earth have?",
                         answer: "1",
-                        wrong: ["planets.jupiter.funFacts.moons", "planets.mars.funFacts.moons"]
+                        wrong: ["79", "2"]
                     },
                     { 
                         question: "How many Earth days are there in one year ?",
                         answer: "365 Earth days",
-                        wrong: ["planets.saturn.funFacts.yearLength", "planets.venus.funFacts.yearLength"]
+                        wrong: ["10,759 Earth days", "225 Earth days"]
                     }
                 ]
             // quizFacts: {
@@ -172,17 +172,17 @@ db.planets.insertMany([
                     { 
                         question: "What is the distance from the sun?",
                         answer: "142 million miles",
-                        wrong: ["planets.saturn.funFacts.distanceFromSun", "planet.jupiter.funFacts.distanceFromSun"]
+                        wrong: ["929 million miles", "67 million miles"]
                     },
                     {
                         question: "How many moons does Mars have?",
                         answer: "2",
-                        wrong: ["planets.earth.funFacts.moons", "planets.venus.funFacts.moons"]
+                        wrong: ["1", "79"]
                     },
                     { 
                         question: "How many Earth days are there in one year ?",
                         answer: "687 Earth days",
-                        wrong: ["planets.jupiter.funFacts.yearLength", "planets.mercury.funFacts.yearLength"]
+                        wrong: ["4,380 Earth days", "488 Earth days"]
                     }
                 ]
             // quizFacts: {
@@ -217,17 +217,17 @@ db.planets.insertMany([
                     { 
                         question: "What is the distance from the sun?",
                         answer: "484 million miles",
-                        wrong: ["planets.earth.funFacts.distanceFromSun", "planet.mercury.funFacts.distanceFromSun"]
+                        wrong: ["93 million miles", "39.704 million miles"]
                     },
                     {
                         question: "How many moons does Jupiter have?",
                         answer: "79",
-                        wrong: ["planets.venus.funFacts.moons", "planets.saturn.funFacts.moons"]
+                        wrong: ["0", "62"]
                     },
                     { 
                         question: "How many Earth days are there in one year ?",
                         answer: "4,380 Earth days",
-                        wrong: ["planets.mars.funFacts.yearLength", "planets.neptune.funFacts.yearLength"]
+                        wrong: ["24.6 hours", "60,190 Earth days"]
                     }
                 ]
             // quizFacts: {
@@ -262,17 +262,17 @@ db.planets.insertMany([
                     { 
                         question: "What is the distance from the sun?",
                         answer: "929 million miles",
-                        wrong: ["planets.mercury.funFacts.distanceFromSun", "planet.neptune.funFacts.distanceFromSun"]
+                        wrong: ["39.704 million miles", "2.795 billion miles"]
                     },
                     {
                         question: "How many moons does Saturn have?",
                         answer: "62",
-                        wrong: ["planets.earth.funFacts.moons", "planets.mercury.funFacts.moons"]
+                        wrong: ["1", "0"]
                     },
                     { 
                         question: "How many Earth days are there in one year ?",
                         answer: "10,759 Earth days",
-                        wrong: ["planets.mars.funFacts.yearLength", "planets.jupiter.funFacts.yearLength"]
+                        wrong: ["24.6 hours", "4,380 Earth days"]
                     }
                 ]
             // quizFacts: {
@@ -307,17 +307,17 @@ db.planets.insertMany([
                     { 
                         question: "What is the distance from the sun?",
                         answer: "1.783 billion miles",
-                        wrong: ["planets.mars.funFacts.distanceFromSun", "planet.mercury.funFacts.distanceFromSun"]
+                        wrong: ["142 million miles", "39.704 million miles"]
                     },
                     {
                         question: "How many moons does Uranus have?",
                         answer: "27",
-                        wrong: ["planets.venus.funFacts.moons", "planets.neptune.funFacts.moons"]
+                        wrong: ["0", "14"]
                     },
                     { 
                         question: "How many Earth days are there in one year ?",
                         answer: "30,687 Earth days",
-                        wrong: ["planets.mercury.funFacts.yearLength", "planets.jupiter.funFacts.yearLength"]
+                        wrong: ["488 Earth days", "4,380 Earth day"]
                     }
                 ]
             // quizFacts: {
@@ -352,17 +352,17 @@ db.planets.insertMany([
                     { 
                         question: "What is the distance from the sun?",
                         answer: "2.795 billion miles",
-                        wrong: ["planets.uranus.funFacts.distanceFromSun", "planet.saturn.funFacts.distanceFromSun"]
+                        wrong: ["1.783 billion miles", "929 million miles"]
                     },
                     {
                         question: "How many moons does Neptune have?",
                         answer: "14",
-                        wrong: ["planets.earth.funFacts.moons", "planets.jupiter.funFacts.moons"]
+                        wrong: ["1", "79"]
                     },
                     { 
                         question: "How many Earth days are there in one year ?",
                         answer: "60,190 Earth days",
-                        wrong: ["planets.mars.funFacts.yearLength", "planets.mercury.funFacts.yearLength"]
+                        wrong: ["24.6 hours", "488 Earth days"]
                     }
                 ]
             // quizFacts: {
