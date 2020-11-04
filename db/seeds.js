@@ -16,6 +16,25 @@ db.planets.insertMany([
                 temperature: "5538 degrees celsius",
 
             },    
+            quiz: {
+                questions: [
+                    {
+                        question: "What type of Planet is the Sun?",
+                        answer: "Yellow Dwarf",
+                        wrong: ["Ice Giant", "Gas Giant"]
+                    },
+                    {
+                        question: "How many moons does the Sun have?",
+                        answer: "0 moons",
+                        wrong: ["79 moons", "62 moons"]
+                    },
+                    {
+                        question: "What temperature is it on the Sun?",
+                        answer: "5538° C",
+                        wrong: ["-201° C", "-108 C"]
+                    }
+                ]
+            },
             isPlanet: false   
     },
     {
