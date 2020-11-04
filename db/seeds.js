@@ -83,7 +83,7 @@ db.planets.insertMany([
                 yearLength: "225 Earth days",
                 oneEarthDay: "243 Earth days",
                 distanceFromSun: "67 million miles", 
-                gravity: "Almost the same as Earth",
+                gravity: "almost the same as Earth",
                 planetType: "Terrestrial",
                 temperature: "471° celsius"
             },
