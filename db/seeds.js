@@ -135,7 +135,7 @@ db.planets.insertMany([
                         wrong: ["79 moons", "2 moons"]
                     },
                     { 
-                        question: "What is the temperature on Earth?",
+                        question: "What is the average global land and sea temperature on Earth?",
                         answer: "16° C",
                         wrong: ["-138° C", "471° C"]
                     }
@@ -275,7 +275,7 @@ db.planets.insertMany([
                         wrong: ["0 moons", "14 moons"]
                     },
                     { 
-                        question: "What is the Temperature on Uranus?",
+                        question: "What is the temperature on Uranus?",
                         answer: "-195° C",
                         wrong: ["-201° C", "-108° C"]
                     }
