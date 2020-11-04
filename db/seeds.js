@@ -29,7 +29,7 @@ db.planets.insertMany([
                         wrong: ["79 moons", "62 moons"]
                     },
                     {
-                        question: "What temperature is it on the Sun?",
+                        question: "What is the temperature on the Sun?",
                         answer: "5538° C",
                         wrong: ["-201° C", "-108 C"]
                     }
@@ -65,9 +65,9 @@ db.planets.insertMany([
                             wrong: ["79 moons", "2 moons"]
                         },
                         {
-                            question: "How many Earth days are there in one year on Mercury?",
-                            answer: "88 Earth days",
-                            wrong: ["30,687 Earth days", "10,759 Earth days"]
+                            question: "What is the temperature on Mercury?",
+                            answer: "430° C / -180 C",
+                            wrong: ["-195° C", "-138° C"]
                         }
                     ]
                     // moons: "No Moons",
@@ -110,9 +110,9 @@ db.planets.insertMany([
                         wrong: ["27 moons", "2 moon"]
                     },
                     { 
-                        question: "How many Earth days are there in one year on Venus?",
-                        answer: "225 Earth days",
-                        wrong: ["60,190 Earth days", "1 Earth day"]
+                        question: "What is the temperature on Venus?",
+                        answer: "471° C",
+                        wrong: ["-201° C", "16° C"]
                     }
                 ]
             // quizFacts: {
@@ -157,9 +157,9 @@ db.planets.insertMany([
                         wrong: ["79 moons", "2 moons"]
                     },
                     { 
-                        question: "How many days are there in one year on Earth?",
-                        answer: "365 days",
-                        wrong: ["10,759 days", "225 days"]
+                        question: "What is the temnperature on Earth?",
+                        answer: "16° C",
+                        wrong: ["-138° C", "471° C"]
                     }
                 ]
             // quizFacts: {
@@ -203,9 +203,9 @@ db.planets.insertMany([
                         wrong: ["1 moons", "79 moons"]
                     },
                     { 
-                        question: "How many Earth days are there in one year on Mars?",
-                        answer: "687 Earth days",
-                        wrong: ["4,380 Earth days", "488 Earth days"]
+                        question: "What is the temperature on Mars?",
+                        answer: "-28° C",
+                        wrong: ["-108° C", "16° C"]
                     }
                 ]
             // quizFacts: {
@@ -249,9 +249,9 @@ db.planets.insertMany([
                         wrong: ["0 moons", "62 moons"]
                     },
                     { 
-                        question: "How many Earth days are there in one year on Jupiter?",
-                        answer: "4,380 Earth days",
-                        wrong: ["10,759 Earth days", "60,190 Earth days"]
+                        question: "What is the temperature on Jupiter?",
+                        answer: "-108° C",
+                        wrong: ["-138° C", "-201° C"]
                     }
                 ]
             // quizFacts: {
@@ -295,9 +295,9 @@ db.planets.insertMany([
                         wrong: ["1 moons", "0 moons"]
                     },
                     { 
-                        question: "How many Earth days are there in one year on Saturn?",
-                        answer: "10,759 Earth days",
-                        wrong: ["1 Earth day", "4,380 Earth days"]
+                        question: "What is the temperature on Saturn?",
+                        answer: "-138° C",
+                        wrong: ["16° C", "-108° C"]
                     }
                 ]
             // quizFacts: {
@@ -341,9 +341,9 @@ db.planets.insertMany([
                         wrong: ["0 moons", "14 moons"]
                     },
                     { 
-                        question: "How many Earth days are there in one year on Uranus?",
-                        answer: "30,687 Earth days",
-                        wrong: ["488 Earth days", "4,380 Earth day"]
+                        question: "What is the Temperature on Uranus?",
+                        answer: "-195° C",
+                        wrong: ["-201° C", "-108° C"]
                     }
                 ]
             // quizFacts: {
@@ -387,9 +387,9 @@ db.planets.insertMany([
                         wrong: ["1 moons", "79 moons"]
                     },
                     { 
-                        question: "How many Earth days are there in one year on Neptune?",
-                        answer: "60,190 Earth days",
-                        wrong: ["1 Earth day", "488 Earth days"]
+                        question: "What is the temperature on Neptune?",
+                        answer: "-201° C",
+                        wrong: ["16° C", "5538° C"]
                     }
                 ]
             // quizFacts: {
