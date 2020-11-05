@@ -13,7 +13,7 @@ db.planets.insertMany([
                 yearLength: "230 million Earth years",
                 gravity: "28 times stronger than Earth",
                 planetType: "Yellow Dwarf",
-                temperature: "5538 degrees celsius",
+                temperature: "5538°C",
 
             },    
             quiz: {
@@ -30,8 +30,8 @@ db.planets.insertMany([
                     },
                     {
                         question: "What is the temperature on the Sun?",
-                        answer: "5538° C",
-                        wrong: ["-201° C", "-108 C"]
+                        answer: "5538°C",
+                        wrong: ["-201°C", "-108°C"]
                     }
                 ]
             },
@@ -50,7 +50,7 @@ db.planets.insertMany([
                 distanceFromSun: "39.704 million miles",
                 gravity: "87 times weaker than the force of gravity on the surface of the Earth",
                 planetType: "Terrestrial",
-                temperature: "Temperatures are extreme, 430 degrees Celsius, during the day.",
+                temperature: "Temperatures are extreme, around 430°C during the day.",
                 },
             quiz: {
                     questions: [
@@ -66,8 +66,8 @@ db.planets.insertMany([
                         },
                         {
                             question: "What is the temperature on Mercury?",
-                            answer: "430° C / -180 C",
-                            wrong: ["-195° C", "-138° C"]
+                            answer: "430°C / -180°C",
+                            wrong: ["-195°C", "-138°C"]
                         }
                     ]
                 },
@@ -85,7 +85,7 @@ db.planets.insertMany([
                 distanceFromSun: "67 million miles", 
                 gravity: "almost the same as Earth",
                 planetType: "Terrestrial",
-                temperature: "471° celsius"
+                temperature: "471°C"
             },
             quiz: {
                 questions: [
@@ -101,8 +101,8 @@ db.planets.insertMany([
                     },
                     { 
                         question: "What is the temperature on Venus?",
-                        answer: "471° C",
-                        wrong: ["-201° C", "16° C"]
+                        answer: "471°C",
+                        wrong: ["-201°C", "16°C"]
                     }
                 ]
             },
@@ -120,7 +120,7 @@ db.planets.insertMany([
                 distanceFromSun: "93 million miles", 
                 gravity: "9.8 m/s",
                 planetType: "Terrestrial",
-                temperature: "16° celsius"
+                temperature: "16°C"
             },
             quiz: {
                 questions: [
@@ -136,8 +136,8 @@ db.planets.insertMany([
                     },
                     { 
                         question: "What is the average global land and sea temperature on Earth?",
-                        answer: "16° C",
-                        wrong: ["-138° C", "471° C"]
+                        answer: "16°C",
+                        wrong: ["-138°C", "471°C"]
                     }
                 ]
             },
@@ -155,7 +155,7 @@ db.planets.insertMany([
                 distanceFromSun: "142 million miles",
                 gravity: "3 times weaker than Earth",
                 planetType: "Terrestrial",
-                temperature: "-28° celsius"
+                temperature: "-28°C"
             },
             quiz: {
                 questions: [
@@ -171,8 +171,8 @@ db.planets.insertMany([
                     },
                     { 
                         question: "What is the temperature on Mars?",
-                        answer: "-28° C",
-                        wrong: ["-108° C", "16° C"]
+                        answer: "-28°C",
+                        wrong: ["-108°C", "16°C"]
                     }
                 ]
             },
@@ -190,7 +190,7 @@ db.planets.insertMany([
                 distanceFromSun: "484 million miles",
                 gravity: "2.4 times stronger than Earth",
                 planetType: "Gas Giant",
-                temperature: "-108° celsius"
+                temperature: "-108°C"
             },
             quiz: {
                 questions: [
@@ -206,8 +206,8 @@ db.planets.insertMany([
                     },
                     { 
                         question: "What is the temperature on Jupiter?",
-                        answer: "-108° C",
-                        wrong: ["-138° C", "-201° C"]
+                        answer: "-108°C",
+                        wrong: ["-138°C", "-201°C"]
                     }
                 ]
             },
@@ -225,7 +225,7 @@ db.planets.insertMany([
                 distanceFromSun: "929 million miles", 
                 gravity: "Almost the same as Earth",
                 planetType: "Gas Giant",
-                temperature: "-138° celsius"
+                temperature: "-138°C"
             },
             quiz: {
                 questions: [
@@ -241,8 +241,8 @@ db.planets.insertMany([
                     },
                     { 
                         question: "What is the temperature on Saturn?",
-                        answer: "-138° C",
-                        wrong: ["16° C", "-108° C"]
+                        answer: "-138°C",
+                        wrong: ["16°C", "-108°C"]
                     }
                 ]
             },
@@ -260,7 +260,7 @@ db.planets.insertMany([
                 distanceFromSun: "1.783 billion miles", 
                 gravity: "Amost the same as Earth",
                 planetType: "Ice Giant",
-                temperature: "-195° celsius"
+                temperature: "-195°C"
             },
             quiz: {
                 questions: [
@@ -276,8 +276,8 @@ db.planets.insertMany([
                     },
                     { 
                         question: "What is the temperature on Uranus?",
-                        answer: "-195° C",
-                        wrong: ["-201° C", "-108° C"]
+                        answer: "-195°C",
+                        wrong: ["-201°C", "-108°C"]
                     }
                 ]
             },
@@ -295,7 +295,7 @@ db.planets.insertMany([
                 distanceFromSun: "2.795 billion miles", 
                 gravity: "Almost the same as Earth",
                 planetType: "Ice Giant",
-                temperature: "-201° celsius"
+                temperature: "-201°C"
             },
             quiz: {
                 questions: [
@@ -312,7 +312,7 @@ db.planets.insertMany([
                     { 
                         question: "What is the temperature on Neptune?",
                         answer: "-201° C",
-                        wrong: ["16° C", "5538° C"]
+                        wrong: ["16°C", "5538°C"]
                     }
                 ]
             },
